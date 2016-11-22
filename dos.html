@@ -4,17 +4,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LYFT</title>
-    <link rel="icon"
-      type="image/ico"
-      href="img/favicon.ico">
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Prompt:200,300,400,500" rel="stylesheet">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="css/dos.css">
   </head>
      <header>
-       <a href="index.html" id="volver" class="btn btn-primary glyphicon glyphicon-chevron-left"></a>
+        <div class="container-fluid">
+          <div class="row">
+             <div class="col-xs-3 col-sm-3 col-md-3 ">
+                 <a href="index.html" id="volver" class="btn btn-primary glyphicon glyphicon-chevron-left"></a>
+             </div>
+             <div class="col-xs-9 col-sm-9 col-md-9 ">
+                <h1 class="tituloDos">
+                   Sing up
+                </h1>
+             </div>
+           </div>
+         <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 ">
+                <div class="dropdown">
+                     <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Pais
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                      </ul>
+               </div>
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 ">
+               <input type="text" id="fono" class="form-control"  ><br>
+            </div>
+         </div>
+         <div class="teclado">
+         <div class="col-xs-12 col-sm-12 col-md-12 ">
+         <div class="row">
+                        <button class="tnumNext   btn clear hvr-back-pulse" onclick= "next('N')" id="next">Next</button>
+                    <div class="row">
+                        <button class="tnum btn btn-calc hvr-radial-out" onclick= "agregar('1')" id="uno">1</button>
+                        <button class="tnum btn btn-calc hvr-radial-out" onclick= "agregar('2')" id="dos">2</button>
+                        <button class="tnum btn btn-calc hvr-radial-out" onclick= "agregar('3')" id="tres">3</button>
+                    </div>
+                    <div class="row">
+                        <button class="tnum btn btn-calc hvr-radial-out" onclick= "agregar('4')" id="cuatro">4</button>
+                        <button class="tnum btn btn-calc hvr-radial-out" onclick= "agregar('5')" id="cinco">5</button>
+                        <button class="tnum btn btn-calc hvr-radial-out" onclick= "agregar('6')" id="seis">6</button>
+                    </div>
+                    <div class="row">
+                        <button class="tnum btn btn-calc hvr-radial-out"  onclick= "agregar('7')" id="siete">7</button>
+                        <button class="tnum btn btn-calc hvr-radial-out"  onclick= "agregar('8')" id="ocho">8</button>
+                        <button class="tnum btn btn-calc hvr-radial-out" onclick= "agregar('9')" id="nueve">9</button>
+                    </div>
+                    <div class="row">
+                        <button class="tnum btn btn-calc hvr-radial-out"  onclick= "agregar('')" id="nada"></button>
+                        <button class="tnum btn btn-calc hvr-radial-out"  onclick= "agregar('0')" id="cero">0</button>
+                         <button class="tnum btn clear hvr-back-pulse" onclick= "borrar('x')" id="borrar">Borrar</button>
+                    </div>
+                  </div>
+                </div>
+       </div>
      </header>
   <script type="text/javascript" src="js/jquery-3.1.1.min (5).js"></script>
     <script type='text/javascript' src='js/main.js'></script>
