@@ -1,0 +1,79 @@
+
+body{
+	background-image: url(../img/negro.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.tituloDos{
+	color: #D2DAFD; 
+	font-weight: 600;
+	font-size: 50px;
+	margin-left: -10px;
+	margin-bottom: 30px;
+}
+/*boton volver*/
+#volver{
+	margin-top: 10px;
+}
+
+/*teclado*/
+.tecladoAlf{
+	margin-top: 170px;
+	margin-left: 25px;
+	color:black;
+}
+
+.talfNext{
+	width: 358px;
+	height: 65px;
+	margin-left: -16px;
+	font-size: 30px;
+}
+.talf{
+	width: 32px;
+	height: 40px;
+}
+.talff{
+	width: 50px;
+	height: 40px;
+}
+.tecalf{
+    width: 88px;
+	height: 40px;
+}
+.tealf{
+	width: 40px;
+	height: 40px;
+}
+
+/*@query iphone5*/
+@media (max-width: 320px){
+	.tecladoAlf{
+	margin-top: 130px;
+	margin-left: 25px;
+	color:black;
+}
+
+.talfNext{
+	width: 295px;
+	height: 65px;
+	margin-left: -15px;
+	font-size: 30px;
+}
+.talf{
+	width: 25px;
+	height: 30px;
+}
+.talff{
+	width: 41px;
+	height: 30px;
+}
+.tecalf{
+    width: 75px;
+	height: 30px;
+}
+.tealf{
+	width: 31px;
+	height: 30px;
+}
+	}

@@ -1,13 +1,55 @@
+
+body{
+	background-image: url(../img/negro.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.tituloDos{
+	color: #D2DAFD; 
+	font-weight: 600;
+	font-size: 50px;
+	margin-left: -10px;
+	margin-bottom: 30px;
+}
+/*boton volver*/
+#volver{
+	margin-top: 10px;
+}
+
+/*teclado*/
 .teclado{
 	margin-left: 20px;
-	margin-top: 130px;
+	margin-top: 90px;
+	color: black;
 }
 .tnumNext{
 	width: 338px;
 	height: 80px;
 	margin-left: -15px;
+	font-size: 35px;
 }
 .tnum{
 	width: 110px;
 	height: 80px;
+	font-size: 30px;
+}
+
+/*@query iphone5*/
+@media (max-width: 320px){
+	.teclado{
+	margin-left: 22px;
+	margin-top: 80px;
+	color: black;
+}
+	.tnumNext{
+	width: 278px;
+	height: 70px;
+	margin-left: -15px;
+	font-size: 35px;
+}
+	.tnum{
+		width: 90px;
+	    height: 60px;
+	    font-size: 20px;
+	}
 }
