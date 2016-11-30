@@ -6,17 +6,17 @@ var paises = [
 	},
 	{
 		nombre: "mexico",
-		prefijo: "+123",
+		prefijo: "+519",
 		bandera: "img/MX.png"
 	},
 	{
 		nombre: "japon",
-		prefijo: "+456",
+		prefijo: "+238",
 		bandera: "img/JP.png"
 	},
 	{
 		nombre: "francia",
-		prefijo: "+789",
+		prefijo: "+329",
 		bandera: "img/FR.png"
 	},
 ];

@@ -1,0 +1,21 @@
+body{
+	background-image: url(../img/negro.jpg);
+}
+.tit2{
+	font-size: 45px;
+    color: #FFFFFF;
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+.tit3{
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-left: 40
+}
+.next {
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 30px;
+	margin-left: 60px;
+}
