@@ -1,0 +1,27 @@
+
+body{
+	background-image: url(../img/negro.jpg);
+}
+.titbandera{
+  font-size: 45px;
+  color: #FFFFFF;
+  margin-left: 35px;
+}
+.subtitbandera{
+	color: #FFFFFF;
+	font-size: 20px;
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+
+img{
+	margin-right: 20px;
+}
+span{
+	font-size: 18px;
+}
+.abc{
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-bottom: 49px;
+}

@@ -29,3 +29,36 @@
   margin-top:20px;
   margin-left: 110px;
 }
+/* iphone5*/
+@media (max-width: 320px ){
+    .foto{
+      height: 490px;
+    }
+    .logo{
+      width: 105px;
+      height: 105px;
+      margin-top:30px;
+      margin-left: 95px;
+    }
+    #add{
+      margin-top: 23px;
+      margin-left: 22px;
+    }
+}
+
+/* nexus 6P
+@media (max-width: 412px ){
+    .foto{
+      height: 640px;
+    }
+    .logo{
+      width: 130px;
+      height: 130px;
+      margin-top:30px;
+      margin-left: 125px;
+    }
+    #add{
+      margin-top: 30px;
+      margin-left: 43px;
+    }
+}*/
