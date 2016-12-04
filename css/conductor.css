@@ -1,0 +1,30 @@
+body{
+	background-image: url(../img/fondoazul.jpg);
+	background-repeat: no-repeat;
+}
+#volver, #inicio {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: 1px solid #1E1C72;
+	margin-bottom: 10px;
+}
+#inicio{
+	margin-left: 70px;
+}
+.precios{
+	font-size: 20px;
+	font-weight: 600;
+}
+.reg{
+	color:#303031;
+	font-weight: 600;
+	margin-left: 30px;
+	font-size: 25px;
+	text-decoration: none;
+}
+.autodibujo{
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 5px;
+}

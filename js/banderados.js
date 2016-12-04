@@ -23,7 +23,6 @@ var paises = [
 
 // traerme el nombre del pais desde localStorage
 var nombre_pais = window.localStorage.getItem("nombre_pais") || "chile";
-
 // recuperar el objeto pais, desde el arreglo de paises
 var pais = {};
 for (var i=0 ; i<paises.length ; ++i){
