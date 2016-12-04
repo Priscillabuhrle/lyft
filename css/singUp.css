@@ -53,6 +53,13 @@ body{
 	padding-bottom: 5px;
 	border: 1px solid black;
 }
+#correoBienn{
+	background-color: white;
+	border-radius: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid black;
+}
 
 /*@query iphone5*/
 @media (max-width: 320px){

@@ -45,21 +45,39 @@ $(document).ready(function(){
 
         document.getElementById("nombreApellido").value = "";
         document.getElementById("input-email").value = "";
+        alert("Submitted");
   });
 
 
 });
+//input nombre
+document.getElementById("nombreApellido").addEventListener("input", function() {
+   cajaUno = event.target;
+   //identifica al span del html
+   paseUno = document.getElementById("correoBienn");
+       
+   //Se va al span para mostrar mensaje
+   if(nombreApellido.value == null || nombreApellido.value.length==0 || /^\s+$/.test(nombreApellido.value)){
+     paseUno.innerText = "Incorrecto";
+   } if (nombreApellido.value.length > 30){
+      paseUno.innerText = "Maximo 30 letras";
+   }else {
+     paseUno.innerText = "Ingresar nombre y apellido";
+   }
+});
 
-document.getElementById('input-email').addEventListener('input', function() {
+
+//input correo
+document.getElementById("input-email").addEventListener("input", function() {
    caja = event.target;
-   pase = document.getElementById('correoBien');
+   pase = document.getElementById("correoBien");
        
    emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
    //Se va al span para mostrar mensaje
    if (emailRegex.test(caja.value)) {
-     pase.innerText = "válido";
+     pase.innerText = "Correcto";
    } else {
-     pase.innerText = "incorrecto";
+     pase.innerText = "Incorrecto";
    }
 });
 
