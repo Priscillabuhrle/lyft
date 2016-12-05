@@ -1,5 +1,6 @@
 body{
 	background-image: url(../img/fondoazul.jpg);
+	background-repeat: no-repeat;
 }
 .tit2{
 	font-size: 45px;
@@ -18,4 +19,28 @@ body{
 	font-weight: 600;
 	margin-top: 30px;
 	margin-left: 60px;
+}
+#telefonoOk{
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid blue;
+}
+/*codigo*/
+.codPar{
+    margin-left: -20px;
+}
+#codigoT{
+	width: 100px;
+	height: 35px;
+	display: inline-block;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+#corr{
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid blue;
+	font-size: 15px;
 }
