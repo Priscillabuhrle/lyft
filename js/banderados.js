@@ -31,6 +31,7 @@ for (var i=0 ; i<paises.length ; ++i){
 		break;
 	}
 }
+
 // solo queda modificar el DOM
 $('#pais img').attr('src', pais.bandera);
 $('#prefijo').html(pais.prefijo);
