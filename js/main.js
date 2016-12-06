@@ -64,7 +64,10 @@ document.getElementById("nombreApellido").addEventListener("input", function() {
    }else {
      paseUno.innerText = "Ingresar nombre y apellido";
    }
+   return true;
 });
+/* $('btnNombre').click(function(){
+});*/
 
 
 //input correo

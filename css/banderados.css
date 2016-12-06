@@ -44,3 +44,10 @@ body{
 	border: 1px solid blue;
 	font-size: 15px;
 }
+/* btn next*/
+#btnCod{
+	width: 200px;
+}
+.pbb{
+	margin-left: -10px;
+}

@@ -2,7 +2,7 @@ body{
 	background-image: url(../img/fondoazul.jpg);
 	background-repeat: no-repeat;
 }
-.nombreperfil{
+#nombreperfil{
 	font-size: 30px;
 	margin-left: 75px;
 }

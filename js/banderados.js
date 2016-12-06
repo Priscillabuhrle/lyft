@@ -57,6 +57,7 @@ document.getElementById("inputbandera").addEventListener("input", function() {
    
    if (inputbandera.value.length > 8){
       mensaje.innerText = "Maximo 8 numeros, teléfono no válido";
+      return false;
   }else {
      mensaje.innerText = "Ingresar teléfono";
    }
