@@ -16,10 +16,11 @@ a{
 	margin-left: 100px;
 }
 .imgMujer{
-	max-width: 100%;
+	max-width: 90%;
 	border: 1px solid black;
 	border-radius: 3px;
 	margin-top: 20px;
+	margin-left: 20px;
 }
 i{
 	margin: 20px 20px 10px 20px;

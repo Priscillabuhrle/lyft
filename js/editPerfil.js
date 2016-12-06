@@ -1,6 +1,6 @@
 
 //document.getElementById("inputEdP").addEventListener("input", function() {
-	function cambiarNombre(){
+function cambiarNombre(){
 		//var nuevoNombre = $("inputEdP").val();
 		var nuevoNombre=document.getElementById("inputEdP").value;
 

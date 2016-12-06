@@ -1,4 +1,3 @@
-
 body{
 	background-image: url(../img/negro.jpg);
 	background-repeat: no-repeat;
@@ -38,7 +37,7 @@ body{
 	height: 40px;
 }
 .tecalf{
-    width: 88px;
+	width: 88px;
 	height: 40px;
 }
 .tealf{
@@ -64,32 +63,32 @@ body{
 /*@query iphone5*/
 @media (max-width: 320px){
 	.tecladoAlf{
-	margin-top: 130px;
-	margin-left: 25px;
-	color:black;
-}
+		margin-top: 130px;
+		margin-left: 25px;
+		color:black;
+	}
 
-.talfNext{
-	width: 295px;
-	height: 65px;
-	margin-left: -15px;
-	font-size: 30px;
-}
-.talf{
-	width: 25px;
-	height: 30px;
-}
-.talff{
-	width: 41px;
-	height: 30px;
-}
-.tecalf{
-    width: 75px;
-	height: 30px;
-}
-.tealf{
-	width: 31px;
-	height: 30px;
-}
+	.talfNext{
+		width: 295px;
+		height: 65px;
+		margin-left: -15px;
+		font-size: 30px;
+	}
+	.talf{
+		width: 25px;
+		height: 30px;
+	}
+	.talff{
+		width: 41px;
+		height: 30px;
+	}
+	.tecalf{
+		width: 75px;
+		height: 30px;
+	}
+	.tealf{
+		width: 31px;
+		height: 30px;
+	}
 
- 
+}

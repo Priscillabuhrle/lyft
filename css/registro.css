@@ -1,4 +1,3 @@
-
 .foto{
   background-image: url(../img/auto.jpg);
   background-repeat: no-repeat;
@@ -19,8 +18,8 @@
 
 #add:hover{
   transform: scale(1.2);
-    transition:-duration: 2s;
-    opacity: 0.5;
+  transition:-duration: 2s;
+  opacity: 0.5;
 }
 .logo{
   width: 130px;
@@ -30,24 +29,24 @@
   margin-left: 110px;
 }
 /* iphone5*/
-@media (max-width: 320px ){
-    .foto{
-      height: 490px;
-    }
-    .logo{
-      width: 105px;
-      height: 105px;
-      margin-top:30px;
-      margin-left: 95px;
-    }
-    #add{
-      margin-top: 23px;
-      margin-left: 22px;
-    }
+@media only screen and (max-width: 320px ){
+  .foto{
+    height: 490px;
+  }
+  .logo{
+    width: 105px;
+    height: 105px;
+    margin-top:30px;
+    margin-left: 95px;
+  }
+  #add{
+    margin-top: 23px;
+    margin-left: 22px;
+  }
 }
 
 /* nexus 6P
-@media (max-width: 412px ){
+@media only screen and (max-width: 412px ){
     .foto{
       height: 640px;
     }

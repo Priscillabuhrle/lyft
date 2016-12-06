@@ -1,7 +1,5 @@
-$(document).ready(main);
- 
-var contador = 1;
- 
+$(document).ready(main); 
+var contador = 1; 
 function main () {
 	$('.menu_bar').click(function(){
 		if (contador == 1) {
@@ -15,10 +13,6 @@ function main () {
 				left: '-100%'
 			});
 		}
-	});
+});
  
-	// Mostramos y ocultamos submenus
-	$('.submenu').click(function(){
-		$(this).children('.children').slideToggle();
-	});
-}
+

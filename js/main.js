@@ -47,15 +47,12 @@ $(document).ready(function(){
         document.getElementById("input-email").value = "";
         alert("Submitted");
   });
-
-
 });
 //input nombre
 document.getElementById("nombreApellido").addEventListener("input", function() {
    cajaUno = event.target;
    //identifica al span del html
    paseUno = document.getElementById("correoBienn");
-       
    //Se va al span para mostrar mensaje
    if(nombreApellido.value == null || nombreApellido.value.length==0 || /^\s+$/.test(nombreApellido.value)){
      paseUno.innerText = "Incorrecto";

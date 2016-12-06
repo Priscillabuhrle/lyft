@@ -58,7 +58,7 @@ document.getElementById("inputbandera").addEventListener("input", function() {
    if (inputbandera.value.length > 8){
       mensaje.innerText = "Maximo 8 numeros, teléfono no válido";
       return false;
-  }else {
+   }else {
      mensaje.innerText = "Ingresar teléfono";
    }
 });
@@ -71,26 +71,24 @@ document.getElementById("inputbandera").addEventListener("input", function() {
    	//codigo aleatorio
       mensaje.innerText = "Tu código es:" + codig;
      // alert(codig);
- }
+       }
 });
 
 //validación del código
-
-
-	document.getElementById("codigoT").addEventListener("input", function() {
-		$('#btnCod').click(function(){
-		var cajacodIngresado = $("#codigoT").val();
-		if( cajacodIngresado !== codig){
-			corr.innerText = "código inválido";
-			//el false hace que el botón no cumpla su función
-			return false;
-			//toast elimina mensaje en tiempo determinado
-		}if( cajacodIngresado === codig){
-			corr.innerText = "código válido";
-		}
-		return true;
-	});
-	});
+document.getElementById("codigoT").addEventListener("input", function() {
+	$('#btnCod').click(function(){
+	   var cajacodIngresado = $("#codigoT").val();
+	   if( cajacodIngresado !== codig){
+		   corr.innerText = "código inválido";
+		   //el false hace que el botón no cumpla su función
+		   return false;
+		   //toast elimina mensaje en tiempo determinado
+	   }if( cajacodIngresado === codig){
+		   corr.innerText = "código válido";
+	   }
+	   return true;
+    });
+});
 
 
 /*function validarcodg(){

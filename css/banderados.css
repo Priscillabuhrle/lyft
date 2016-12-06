@@ -4,9 +4,9 @@ body{
 }
 .tit2{
 	font-size: 45px;
-    color: black;
-    margin-left: 90px;
-    margin-bottom: 40px;
+	color: black;
+	margin-left: 90px;
+	margin-bottom: 40px;
 }
 .tit3{
 	color: black;
@@ -28,7 +28,7 @@ body{
 }
 /*codigo*/
 .codPar{
-    margin-left: -20px;
+	margin-left: -20px;
 }
 #codigoT{
 	width: 100px;

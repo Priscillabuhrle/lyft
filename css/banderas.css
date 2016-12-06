@@ -1,11 +1,10 @@
-
 body{
 	background-image: url(../img/negro.jpg);
 }
 .titbandera{
-  font-size: 45px;
-  color: #FFFFFF;
-  margin-left: 35px;
+	font-size: 45px;
+	color: #FFFFFF;
+	margin-left: 35px;
 }
 .subtitbandera{
 	color: #FFFFFF;
